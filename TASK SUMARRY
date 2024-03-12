@@ -1,0 +1,5 @@
+Here is a code walk-through looking at a contract and a script in access control.
+
+I have 4 variables (a, b, c, d) and 3 functions (publicFunc, contractFunc, privateFunc) defined in SomeContract.
+
+In each AREA (1, 2, 3, and 4) and for each variable (a, b, c, and d), I said in which areas they can be read (read scope) and which areas they can be modified (write scope) and for each function (publicFunc, contractFunc, and privateFunc), I shared where they can be called.
