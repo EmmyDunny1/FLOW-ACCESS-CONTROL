@@ -31,6 +31,7 @@ access(all) contract SomeContract {
             /*** AREA 1 ***/
             
         }
+/*******
 Variables
 a (pub(set)): Readable and writable.
 b (pub): Readable, not writable.
@@ -39,7 +40,8 @@ d (access(self)): Readable and writable.
 Functions
 publicFunc : Callable
 contractFunc:Callable.
-privateFunc: Callable.****/
+privateFunc: Callable.
+********/
 
         init() {
             self.a = "a"
